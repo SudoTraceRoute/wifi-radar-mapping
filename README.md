@@ -51,7 +51,6 @@ By comparing the resulting maps, this project demonstrates the effectiveness of 
 
 ### Installation
 
-```bash
 sudo apt update
 sudo apt install aircrack-ng
 
