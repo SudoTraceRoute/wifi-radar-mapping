@@ -86,12 +86,12 @@ Let it run and capture the visible WiFi signals. You can rotate the antenna betw
 
 ---
 
-🖼️ Screenshots
+### 🖼️ Screenshots
 
 Screenshots of the scanning process and the resulting radar maps are included in the screenshots/ folder.
 
 
-🔍 Comparison: Directional vs Omnidirectional
+### 🔍 Comparison: Directional vs Omnidirectional
 
 This project includes scans made using both:
 
@@ -107,7 +107,7 @@ Omnidirectional antenna captures more signals but at lower average strength.
 
 ---
 
-⚠️ Known Limitations
+### ⚠️ Known Limitations
 
 Due to the constraints of free/open-source software used for generating the radar maps:
 
@@ -123,7 +123,7 @@ Mapping accuracy depends heavily on scan duration, rotation angle consistency, a
 
 ---
 
-📝 License
+### 📝 License
 
 This project is licensed under the MIT License.
 See the LICENSE
@@ -131,11 +131,11 @@ See the LICENSE
 
 ---
 
-👨‍🔧 Author
+### 👨‍🔧 Author
 
 Made by SudoTraceRoute
 
 ---
 
-Check out the original antenna project here:
+### Check out the original antenna project here:
 🔗 2.4GHz Modular Parabolic Dish Antenna
