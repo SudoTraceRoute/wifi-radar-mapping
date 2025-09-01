@@ -54,3 +54,88 @@ By comparing the resulting maps, this project demonstrates the effectiveness of 
 ```bash
 sudo apt update
 sudo apt install aircrack-ng
+
+
+---
+
+Connect the parabolic antenna to your network adapter, and you're ready to begin scanning.
+
+🧪 Basic Aircrack-ng Commands
+
+These steps allow you to put your wireless adapter into monitor mode for scanning WiFi signals.
+
+1. Identify your wireless interface
+iwconfig
+
+
+Look for something like wlan0.
+
+2. Enable monitor mode
+sudo airmon-ng start wlan0
+
+
+This will likely create a new interface like wlan0mon.
+
+3. Start scanning
+sudo airodump-ng wlan0mon
+
+
+Let it run and capture the visible WiFi signals. You can rotate the antenna between scans to simulate a directional sweep.
+
+📸 During the scan process, take screenshots for later inclusion in your radar map visualization.
+
+---
+
+🖼️ Screenshots
+
+Screenshots of the scanning process and the resulting radar maps are included in the screenshots/ folder.
+
+
+🔍 Comparison: Directional vs Omnidirectional
+
+This project includes scans made using both:
+
+ Custom parabolic antenna (directional)
+
+ Default omnidirectional antenna
+
+By comparing the results:
+
+Directional antenna shows stronger signals in its narrow field of view.
+
+Omnidirectional antenna captures more signals but at lower average strength.
+
+---
+
+⚠️ Known Limitations
+
+Due to the constraints of free/open-source software used for generating the radar maps:
+
+The signal map and legend do not always correspond 1:1.
+
+Some strong signals may appear in the legend but not on the map.
+
+Some weaker or out-of-range signals may be inconsistently represented.
+
+Mapping accuracy depends heavily on scan duration, rotation angle consistency, and software interpretation.
+
+📌 These limitations are acknowledged and may be addressed in future updates or with better software solutions.
+
+---
+
+📝 License
+
+This project is licensed under the MIT License.
+See the LICENSE
+ file for details.
+
+---
+
+👨‍🔧 Author
+
+Made by SudoTraceRoute
+
+---
+
+Check out the original antenna project here:
+🔗 2.4GHz Modular Parabolic Dish Antenna
